@@ -1,0 +1,13 @@
+<app-navigation></app-navigation>
+<div>
+  <p-tabView>
+    <p-tabPanel header="Search By League">
+        <p-autoComplete [(ngModel)]="selectedLeague" [suggestions]="leagues" (completeMethod)="search($event)" field="name" [size]="30"
+        placeholder="League name" [minLength]="1" [dropdown]="true" ></p-autoComplete>
+        <span class="result">Selected League: {{selectedLeague ? selectedLeague ||selectedLeague : 'none'}}</span>
+    </p-tabPanel>
+    <p-tabPanel header="Search By Team">
+    </p-tabPanel>
+</p-tabView>
+
+</div>

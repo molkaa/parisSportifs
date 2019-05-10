@@ -1,0 +1,18 @@
+#heading {
+  height: 740px;
+  background: url(../../../assets/images/head_complete.jpg) repeat-x 0 0;
+}
+#heading .shell {
+  position: relative;
+}
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+.example-full-width {
+  width: 100%;
+}
+.result {
+  margin-left: 10px;
+}

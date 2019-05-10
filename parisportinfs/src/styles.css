@@ -1,0 +1,22 @@
+.body {
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  background: #171717;
+  height: 100%;
+  text-align: left;
+}
+
+.shell {
+  margin: 0 auto;
+  width: 930px;
+}
+
+#header {
+  background: #000;
+}
+#header .shell {
+  width: 1018px;
+  background: url(assets/images/header.jpg) no-repeat 10px 0;
+  height: 84px;
+}
